@@ -1,0 +1,32 @@
+The general step wise procedure for Big-O runtime analysis is as follows:
+
+Figure out what the input is and what n represents.
+Express the maximum number of operations, the algorithm performs in terms of n.
+Eliminate all excluding the highest order terms.
+Remove all the constant factors.
+
+Examples:
+▪ Logarithmic algorithm – O(logn) – Binary Search.
+▪ Linear algorithm – O(n) – Linear Search.
+▪ Superlinear algorithm – O(nlogn) – Heap Sort, Merge Sort.
+▪ Polynomial algorithm – O(n^c) – Strassen’s Matrix Multiplication, Bubble Sort, Selection Sort, Insertion Sort, Bucket Sort.
+▪ Exponential algorithm – O(c^n) – Tower of Hanoi.
+▪ Factorial algorithm – O(n!) – Determinant Expansion by Minors, Brute force Search algorithm for Traveling Salesman Problem.
+
+
+
+Additional Problems: 
+
+  1) Answer: O(N)
+  2) Answer: O(N)
+  3) Answer: O(1)
+  4) Answer: O(a/b)
+  5) Answer: O(log N)
+  6) Answer: O(sqrt(N))
+  7) Answer: O(N)
+  8) Answer: O(N)
+  9) 
+
+
+
+

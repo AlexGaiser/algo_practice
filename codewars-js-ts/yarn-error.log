@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/Cellar/node/11.13.0/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js add --dev babel-jest @bablel/core @babel/preset-env
+
+PATH: 
+  /Users/alexandergaiser/.cabal/bin:/Users/alexandergaiser/.ghcup/bin:/Users/alexandergaiser/Library/Python/3.7/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/alexandergaiser/.cabal/bin:/Users/alexandergaiser/.ghcup/bin:/Users/alexandergaiser/Library/Python/3.7/bin/
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@bablel%2fcore: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:65894:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129018:22)
+      at Request.emit (events.js:193:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129990:10)
+      at Request.emit (events.js:193:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:129912:12)
+      at Object.onceWrapper (events.js:281:20)
+      at IncomingMessage.emit (events.js:198:15)
+      at endReadableNT (_stream_readable.js:1142:12)
+      at processTicksAndRejections (internal/process/task_queues.js:81:17)
+
+npm manifest: 
+  {
+    "name": "codewars",
+    "version": "1.0.0",
+    "description": "",
+    "main": "thirt.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^24.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
