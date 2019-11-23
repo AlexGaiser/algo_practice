@@ -12,4 +12,12 @@ const f = (n) =>{
 }
 let num = f(5)
 
-num
+/*
+n
+n
+1
+a/b
+log n
+
+*/
+
